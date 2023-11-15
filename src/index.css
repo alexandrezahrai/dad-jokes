@@ -27,7 +27,7 @@ body {
 
 /* Typography */
 .heading-1 {
-  @apply text-[80px] leading-none balance-text font-semibold;
+  @apply text-[80px] leading-none balance-text font-bold;
 }
 
 .heading-3 {
@@ -36,7 +36,7 @@ body {
 
 /* Buttons */
 .button {
-  @apply px-5 py-2.5 rounded-full uppercase tracking-widest font-medium text-base;
+  @apply px-5 py-2.5 rounded-full font-medium text-base;
   @apply transition-all duration-200 ease-in-out;
   @apply hover:shadow-lg focus:outline-none focus:ring-4;
 }
@@ -51,9 +51,9 @@ body {
   @apply bg-gradient-to-r from-pink-200 via-pink-300 to-pink-400 text-white focus:ring-pink-500;
 }
 
-.button-dark {
+.button-remove {
   @apply button;
-  @apply text-white bg-gray-800 hover:bg-gray-700 focus:ring-gray-500 border-gray-500;
+  @apply text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-red-800;
 }
 
 /* Inputs */
